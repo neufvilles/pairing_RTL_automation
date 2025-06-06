@@ -1,0 +1,69 @@
+// for RAM -----------------------------------------------------------------------------
+
+`define RAM_DEPTH 90
+`define RAM_ADDR_SIZE 7
+
+`define RAM_ZERO	`RAM_ADDR_SIZE'd0
+`define RAM_ONE	    `RAM_ADDR_SIZE'd1
+`define RAM_BT00	`RAM_ADDR_SIZE'd2
+`define RAM_BT01	`RAM_ADDR_SIZE'd2
+`define RAM_BT10	`RAM_ADDR_SIZE'd3
+`define RAM_BT11	`RAM_ADDR_SIZE'd3
+`define RAM_QX00	`RAM_ADDR_SIZE'd4
+`define RAM_QX01	`RAM_ADDR_SIZE'd4
+`define RAM_QX10	`RAM_ADDR_SIZE'd5
+`define RAM_QX11	`RAM_ADDR_SIZE'd5
+`define RAM_QY00	`RAM_ADDR_SIZE'd6
+`define RAM_QY01	`RAM_ADDR_SIZE'd6
+`define RAM_QY10	`RAM_ADDR_SIZE'd7
+`define RAM_QY11	`RAM_ADDR_SIZE'd7
+`define RAM_QY_00	`RAM_ADDR_SIZE'd8
+`define RAM_QY_01	`RAM_ADDR_SIZE'd8
+`define RAM_QY_10	`RAM_ADDR_SIZE'd9
+`define RAM_QY_11	`RAM_ADDR_SIZE'd9
+`define RAM_TX00	`RAM_ADDR_SIZE'd10
+`define RAM_TX01	`RAM_ADDR_SIZE'd10
+`define RAM_TX10	`RAM_ADDR_SIZE'd11
+`define RAM_TX11	`RAM_ADDR_SIZE'd11
+`define RAM_TY00	`RAM_ADDR_SIZE'd12
+`define RAM_TY01	`RAM_ADDR_SIZE'd12
+`define RAM_TY10	`RAM_ADDR_SIZE'd13
+`define RAM_TY11	`RAM_ADDR_SIZE'd13
+`define RAM_TZ00	`RAM_ADDR_SIZE'd14
+`define RAM_TZ01	`RAM_ADDR_SIZE'd14
+`define RAM_TZ10	`RAM_ADDR_SIZE'd15
+`define RAM_TZ11	`RAM_ADDR_SIZE'd15
+
+`define RAM_XI100	`RAM_ADDR_SIZE'd16
+`define RAM_XI101	`RAM_ADDR_SIZE'd16
+`define RAM_XI110	`RAM_ADDR_SIZE'd17
+`define RAM_XI111	`RAM_ADDR_SIZE'd17
+`define RAM_XI200	`RAM_ADDR_SIZE'd18
+`define RAM_XI201	`RAM_ADDR_SIZE'd18
+`define RAM_XI210	`RAM_ADDR_SIZE'd19
+`define RAM_XI211	`RAM_ADDR_SIZE'd19
+`define RAM_XI300	`RAM_ADDR_SIZE'd20
+`define RAM_XI301	`RAM_ADDR_SIZE'd20
+`define RAM_XI310	`RAM_ADDR_SIZE'd21
+`define RAM_XI311	`RAM_ADDR_SIZE'd21
+`define RAM_XI400	`RAM_ADDR_SIZE'd22
+`define RAM_XI401	`RAM_ADDR_SIZE'd22
+`define RAM_XI410	`RAM_ADDR_SIZE'd23
+`define RAM_XI411	`RAM_ADDR_SIZE'd23
+`define RAM_XI500	`RAM_ADDR_SIZE'd24
+`define RAM_XI501	`RAM_ADDR_SIZE'd24
+`define RAM_XI510	`RAM_ADDR_SIZE'd25
+`define RAM_XI511	`RAM_ADDR_SIZE'd25
+`define RAM_K0	    `RAM_ADDR_SIZE'd26
+`define RAM_K1	    `RAM_ADDR_SIZE'd26
+
+`define RAM_A	`RAM_ADDR_SIZE'd27
+`define RAM_B	`RAM_ADDR_SIZE'd39
+`define RAM_C	`RAM_ADDR_SIZE'd51
+`define RAM_E	`RAM_ADDR_SIZE'd63
+`define RAM_F	`RAM_ADDR_SIZE'd75
+// RAM_ZERO is allocated on the RAM1 side
+`define RAM_PX	    `RAM_ADDR_SIZE'd87 
+`define RAM_PY_	    `RAM_ADDR_SIZE'd88
+`define RAM_PX_	    `RAM_ADDR_SIZE'd89
+`define RAM_PY      `RAM_ADDR_SIZE'd90

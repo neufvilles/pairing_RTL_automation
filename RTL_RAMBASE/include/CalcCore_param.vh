@@ -1,0 +1,39 @@
+`define MM_RAM_DEPTH 64
+`define CONST0_RAM_DEPTH 64
+`define CONST1_RAM_DEPTH 64
+`define ADD0_RAM_DEPTH 64
+`define ADD1_RAM_DEPTH 64
+`define ADD2_RAM_DEPTH 64
+`define ADD3_RAM_DEPTH 64
+`define ADD4_RAM_DEPTH 64
+`define ADD5_RAM_DEPTH 64
+`define ADD6_RAM_DEPTH 64
+`define ADD7_RAM_DEPTH 64
+
+`define MM_RAM_SIZE 6
+`define CONST0_RAM_SIZE 6
+`define CONST1_RAM_SIZE 6
+`define ADD0_RAM_SIZE 6
+`define ADD1_RAM_SIZE 6
+`define ADD2_RAM_SIZE 6
+`define ADD3_RAM_SIZE 6
+`define ADD4_RAM_SIZE 6
+`define ADD5_RAM_SIZE 6
+`define ADD6_RAM_SIZE 6
+`define ADD7_RAM_SIZE 6
+
+`define OPR_NUM_SIZE    4  // log(13)
+`define MM00    0
+`define MM01    1
+`define CONST00 2
+`define CONST01 3
+`define CONST10 4
+`define CONST11 5
+`define ADD0    6
+`define ADD1    7
+`define ADD2    8
+`define ADD3    9
+`define ADD4    10
+`define ADD5    11
+`define ADD6    12
+`define ADD7    13
